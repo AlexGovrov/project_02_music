@@ -6,7 +6,7 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) throws IOException, InvalidDataException, UnsupportedTagException {
-        String path = "D:\\Моя музыка\\2015_Oxxxymiron_Gorgorod";
+        String path = "D:/Моя музыка";
         System.out.println(path);
         FileService fileService = new FileService(path);
         fileService.parseDirectories();
